@@ -1,8 +1,8 @@
-$mobile-width: 375px;
+$tablet-width: 800px;
 $desktop-width: 1440px;
 
-@mixin mobile {
-  @media (min-width: $mobile-width) {
+@mixin tablet {
+  @media (min-width: $tablet-width) {
     @content;
   }
 }
