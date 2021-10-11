@@ -1,7 +1,6 @@
 @import "./fonts";
 @import "./variables";
 
-//reset
 * {
   margin: 0;
   padding: 0;
@@ -13,5 +12,80 @@ html {
 }
 
 body {
+  background-color: $color-light;
+}
+
+.three-columns {
+  padding: 80px 20px;
+  .column {
+    padding: 0 50px;
+
+    &__icon {
+      padding: 50px 0 25px 0;
+    }
+
+    &__title {
+      font-family: $font-primary;
+      color: $color-light;
+      font-size: 2.5rem;
+      padding: 0 0 25px 0;
+    }
+
+    &__txt {
+      font-family: $font-secondary;
+      color: $color-transparent;
+      line-height: 1.8;
+      padding: 0 0 25px 0;
+    }
+
+    &__btn {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: $color-light;
+      font-family: $font-secondary;
+      text-decoration: none;
+      border-radius: 28px;
+      margin-bottom: 50px;
+      border: 2px solid $color-light;
+      &--one {
+        color: $color-accent;
+      }
+      &--two {
+        color: $color-dark;
+      }
+      &--three {
+        color: $color-very-dark;
+      }
+      &:hover {
+        background-color: transparent;
+        color: $color-light;
+        transition: ease-in-out 0.2s;
+      }
+    }
+
+    &--one {
+      background-color: $color-accent;
+      border-radius: 10px 10px 0 0;
+    }
+    &--two {
+      background-color: $color-dark;
+    }
+    &--three {
+      background-color: $color-very-dark;
+      border-radius: 0 0 10px 10px;
+    }
+  }
+}
+
+.attribution {
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 0.75rem;
   font-family: $font-secondary;
+  a {
+    color: gray;
+    &:hover {
+      color: $color-accent;
+    }
+  }
 }
