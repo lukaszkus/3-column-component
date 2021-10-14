@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/css-custom-properties-css-flexbox-css-grid-xOljzZQUJ](https://www.frontendmentor.io/solutions/css-custom-properties-css-flexbox-css-grid-xOljzZQUJ)
+- Solution URL: [https://www.frontendmentor.io/solutions/3column-responsive-component-yij59BH8O](https://www.frontendmentor.io/solutions/3column-responsive-component-yij59BH8O)
 - Live Site URL: [https://lukaszkus.github.io/3-column-component/](https://lukaszkus.github.io/3-column-component/)
 
 ## My process
